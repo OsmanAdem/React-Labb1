@@ -29,6 +29,7 @@ const About = () => {
                 do. From our baristas to our bakers, we take pride in every cup
                 of coffee and every pastry we serve.
             </p>
+            <p>Stop by and say hello - we would love to meet you!</p>
         </div>
     )
 }
