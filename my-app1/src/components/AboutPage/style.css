@@ -1,0 +1,20 @@
+.about-container {
+    margin: 20px;
+}
+
+.about-heading {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.about-subheading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.about-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}

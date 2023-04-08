@@ -8,18 +8,13 @@ function Header() {
             <nav className="header__nav">
                 <ul className="header__list">
                     <li className="header_item">
-                        <a href="#" className="header_link">
+                        <a href="/#" className="header_link">
                             Home
                         </a>
                     </li>
                     <li className="header_item">
-                        <a href="#" className="header_link">
+                        <a href="/About" className="header_link">
                             About
-                        </a>
-                    </li>
-                    <li className="header_item">
-                        <a href="#" className="header_link">
-                            Contact
                         </a>
                     </li>
                 </ul>

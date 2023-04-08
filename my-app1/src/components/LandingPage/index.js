@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Menu from '../Menu'
 import Header from '../header'
 
-
 function LandingPage() {
     const [showMenuPage, setShowMenuPage] = useState(false)
 
