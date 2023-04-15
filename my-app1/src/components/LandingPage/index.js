@@ -22,7 +22,6 @@ function LandingPage() {
                 </div>
                 <CoffeeHouseProps Coffee="InterN Coffee House" />
                 <div className="coffeeProps"></div>
-                <div className="coffeeImage"></div>
             </div>
             {showMenuPage ? <Menu /> : null}
             <div className="user">
