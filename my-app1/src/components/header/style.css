@@ -2,14 +2,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f0f0f0;
+    background-color: brown;
     padding: 20px;
+    padding-left: 50px;
 }
 
 .header__title {
     margin: 0;
     font-size: 36px;
     font-weight: bold;
+    color: white;
 }
 
 .header__nav {
@@ -27,7 +29,7 @@
     margin: 0 px;
 }
 
-.header__link {
+.header_link {
     color: #333;
     text-decoration: none;
     font-size: 20px;
@@ -36,7 +38,15 @@
     border-radius: 5px;
 }
 
-.header__link:hover {
-    background-color: #333;
-    color: #fff;
+.header_link:first-child {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.header_link:first-child:hover {
+  color: grey;
+
 }

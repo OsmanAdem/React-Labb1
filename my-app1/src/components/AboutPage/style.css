@@ -1,20 +1,33 @@
+/* Container for the about page */
 .about-container {
-    margin: 20px;
+    background-image: url(/public/images/Coffee-House.jpg);
+    height: 100vh;
+    width: 100%;
+    padding-top: 25px;
+    background-attachment: fixed;
 }
 
-.about-heading {
-    font-size: 32px;
-    font-weight: bold;
-}
-
-.about-subheading {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
+/* Text for the about page */
 .about-text {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 700px;
+    color: black;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(100px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+p {
+    margin-top: 0px;
+}
+
+.about {
+    margin-left: 250px;
 }

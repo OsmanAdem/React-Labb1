@@ -19,6 +19,7 @@ function Menu() {
                         <h2>{coffee.title}</h2>
                         <p>{coffee.description}</p>
                         <p>{coffee.ingredients}</p>
+                        <button>Buy $5</button>
                     </li>
                 ))}
             </ul>

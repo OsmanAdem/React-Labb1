@@ -4,7 +4,7 @@ import './style.css'
 function Header() {
     return (
         <header className="header">
-            <h1 className="header__title">Your App Name</h1>
+            <h1 className="header__title">InterN Coffee House</h1>
             <nav className="header__nav">
                 <ul className="header__list">
                     <li className="header_item">
